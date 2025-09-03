@@ -1,4 +1,1 @@
-
-   - Download [df_model.pt](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l) and place it in the model folder
-
-
+This project aims to detect deepfake videos created using face-swap manipulation techniques. A convolutional neural network (CNN) is trained on datasets containing both real and fake videos to learn distinguishing facial patterns and artifacts. The system extracts frames from videos, analyzes facial regions, and classifies them as authentic or manipulated. A Flask-based web application is integrated to make the system user-friendly, where users can upload videos and instantly view results along with accuracy/confidence levels. This solution contributes to combating misinformation, enhancing digital media security, and raising awareness about deepfake threats.
